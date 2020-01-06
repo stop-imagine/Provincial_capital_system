@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activitys.activitys.StudyGaoxiao"
+    android:background="@mipmap/gaoxiaobeijing">
+    <include layout="@layout/nav_bar"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/iv_text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp"
+                android:textSize="20sp"
+                android:textColor="@color/white" />
+            <ImageView
+                android:layout_height="1dp"
+                android:layout_width="match_parent"
+                android:background="@color/gray"
+                />
+            <TextView
+                android:id="@+id/iv_text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp"
+                android:textSize="20sp"
+                android:textColor="@color/white" />
+            <ImageView
+                android:layout_height="1dp"
+                android:layout_width="match_parent"
+                android:background="@color/gray"
+                />
+            <TextView
+                android:id="@+id/iv_text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp"
+                android:textSize="20sp"
+                android:textColor="@color/white" />
+
+            <ImageView
+                android:layout_height="1dp"
+                android:layout_width="match_parent"
+                android:background="@color/gray"
+                />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_play"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edittext_background"
+                    android:layout_centerHorizontal="true"
+                    android:text="开始"
+                    android:textColor="@color/gray"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginRight="80dp"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

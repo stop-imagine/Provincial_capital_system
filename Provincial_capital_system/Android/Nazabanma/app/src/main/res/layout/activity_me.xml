@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activitys.activitys.MeActivity">
+
+    <include layout="@layout/nav_bar"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="用户名：a_Gen 那咋办嘛"
+        android:textStyle="bold"
+        android:textSize="@dimen/titleSize"
+        android:layout_marginTop="@dimen/marginSize"/>
+
+    <Button
+        style="@style/commitBtn"
+        android:text="退出登录"
+        android:layout_marginTop="@dimen/marginSize"
+        android:onClick="onLogoutClick"/>
+</LinearLayout>

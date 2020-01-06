@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+    <include layout="@layout/nav_bar"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@mipmap/a603"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/marginSize"/>
+
+    <com.example.nazabanma.activitys.views.inputView
+        android:id="@+id/input_phone"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/inputViewHeight"
+        android:layout_marginTop="@dimen/marginSize"
+        app:input_icon="@mipmap/phone"
+        app:input_hint="手机号"
+        app:is_password="false">
+    </com.example.nazabanma.activitys.views.inputView>
+    
+    <View style="@style/line"/>
+
+    <com.example.nazabanma.activitys.views.inputView
+        android:id="@+id/input_password"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/inputViewHeight"
+        app:input_icon="@mipmap/password"
+        app:input_hint="密码"
+        app:is_password="true">
+    </com.example.nazabanma.activitys.views.inputView>
+
+    <View style="@style/line"/>
+    
+    <Button
+        style="@style/commitBtn"
+        android:text="登  录"
+        android:layout_marginTop="@dimen/marginSize"
+        android:onClick="onCommitClick"/>
+    <!--<EditText-->
+        <!--android:id="@+id/manager_name"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:textSize="16sp"-->
+        <!--android:hint="账号"-->
+        <!--android:paddingLeft="10dp"-->
+        <!--android:paddingRight="10dp"-->
+        <!--android:maxLines="1"-->
+        <!--android:layout_marginTop="150dp"-->
+        <!--android:background="@drawable/et_username"/>-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/manager_password"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:textSize="16sp"-->
+        <!--android:hint="密码"-->
+        <!--android:inputType="textPassword"-->
+        <!--android:layout_below="@id/manager_name"-->
+        <!--android:layout_marginTop="15dp"-->
+        <!--android:paddingLeft="10dp"-->
+        <!--android:paddingRight="10dp"-->
+        <!--android:maxLines="1"-->
+        <!--android:background="@drawable/et_username"/>-->
+
+    <!--<Button-->
+        <!--android:id="@+id/btn_login"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:layout_below="@id/manager_password"-->
+        <!--android:layout_marginTop="40dp"-->
+        <!--android:text="登录"-->
+        <!--android:textSize="20sp"/>-->
+</LinearLayout>

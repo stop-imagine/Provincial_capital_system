@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activitys.activitys.MainActivity">
+
+   <include layout="@layout/nav_bar"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|center_horizontal"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="-30dp">
+
+
+        <LinearLayout
+            android:layout_width="420dp"
+            android:layout_height="150dp"
+            android:gravity="center"
+            android:orientation="vertical">//线性布局方向
+
+            <Button
+                android:id="@+id/btn_user"
+                android:layout_width="160dp"
+                android:layout_height="70dp"
+                android:background="@drawable/btn_bg_red"
+                android:text="用户"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="420dp"
+            android:layout_height="150dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_manager"
+                android:layout_width="160dp"
+                android:layout_height="70dp"
+                android:background="@drawable/btn_bg_red"
+                android:text="管理员"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

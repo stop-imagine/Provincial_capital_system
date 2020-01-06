@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activitys.fragment.f_user_setting"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|center_horizontal"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="-30dp">
+
+
+        <LinearLayout
+            android:layout_width="420dp"
+            android:layout_height="80dp"
+            android:gravity="center"
+            android:orientation="vertical">//线性布局方向
+
+            <Button
+                android:id="@+id/btn_setting_fast"
+                android:layout_width="180dp"
+                android:layout_height="70dp"
+                android:background="@drawable/btn_bg_red"
+                android:text="快"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="420dp"
+            android:layout_height="80dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_setting_middle"
+                android:layout_width="180dp"
+                android:layout_height="70dp"
+                android:background="@drawable/btn_bg_red"
+                android:text="中"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="420dp"
+            android:layout_height="80dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_setting_slow"
+                android:layout_width="180dp"
+                android:layout_height="70dp"
+                android:background="@drawable/btn_bg_red"
+                android:text="慢"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="420dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="自定义："
+                android:gravity="bottom"
+                android:textSize="20sp"/>
+
+            <EditText
+                android:id="@+id/et_setting_speed"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text=" (s/次) "
+                android:gravity="bottom"
+                android:textSize="20sp"/>
+
+            <Button
+                android:id="@+id/btn_setting_sure"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:layout_gravity="bottom"
+                android:background="@drawable/btn_bg_red"
+                android:text="确定"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

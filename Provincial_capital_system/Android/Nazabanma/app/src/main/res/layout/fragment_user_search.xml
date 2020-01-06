@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activitys.fragment.f_user_search"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="5">
+        <EditText
+            android:id="@+id/user_search_input"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="请输入省名"
+            android:textSize="20sp"
+            android:layout_weight="1"/>
+        <ImageView
+            android:id="@+id/user_search_image"
+            android:background="@color/silver"
+            android:src="@mipmap/input_search_64"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="4"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/iv_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:textSize="20sp"
+        android:textColor="@color/gray" />
+    <ImageView
+        android:layout_height="1dp"
+        android:layout_width="match_parent"
+        android:background="@color/gray"
+        />
+    <TextView
+        android:id="@+id/iv_text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:textSize="20sp"
+        android:textColor="@color/gray" />
+    <ImageView
+        android:layout_height="1dp"
+        android:layout_width="match_parent"
+        android:background="@color/gray"
+        />
+    <TextView
+        android:id="@+id/iv_text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:textSize="20sp"
+        android:textColor="@color/gray" />
+
+    <ImageView
+        android:layout_height="1dp"
+        android:layout_width="match_parent"
+        android:background="@color/gray"
+        />
+    <TextView
+        android:id="@+id/iv_text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:textSize="20sp"
+        android:textColor="@color/gray" />
+    <ImageView
+        android:layout_height="1dp"
+        android:layout_width="match_parent"
+        android:background="@color/gray"
+        />
+
+</LinearLayout>
